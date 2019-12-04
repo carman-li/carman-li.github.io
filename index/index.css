@@ -1,12 +1,19 @@
 body {
     overflow-x: hidden;
+    position: relative;
+
+    height: 100vh;
+    background-image: url(homeBackground.jpg);
+    background-size: cover;
+}
+
+p {
     font-family: 'Open Sans', sans-serif;
     color: #3A3B4A;
-    position: relative;
+    font-weight: bold;
 }
 
 .title{
-    font-weight: bold;
     font-size:5em;
 }
 
@@ -15,33 +22,10 @@ body {
 }
 
 .subheading {
-    font-weight: bold;
     font-size:1.25em;
     letter-spacing: 0.2em;
 }
 
-.container-fluid {
-    height: 100vh;
-    background-image: url(homeBackground.jpg);
-    background-size: cover;
+.row {
+    min-height: 17vh;
 }
-
-.navbar-brand{
-    position: fixed;
-    left: 50%;
-    top: 1%;
-    transform: translateX(-50%);
-    font-weight: bold;
-    font-size: 30em;
-}
-
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text,
-.navbar-custom .nav-link {
-    color: #3A3B4A;
-}
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58, 59, 74, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }

@@ -1,17 +1,26 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    color: #3A3B4A;
     width: 100vw;
 }
 
-.navbar-brand{
+#nav {
+    font-size: 2em;
+    color: #3A3B4A;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+
     position: fixed;
     left: 50%;
     top: 1%;
     transform: translateX(-50%);
 }
 
+.nav-link {
+    color: #3A3B4A;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text,
