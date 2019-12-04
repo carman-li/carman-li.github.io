@@ -1,13 +1,8 @@
-.body {
-    width: 100vw;
-    position: absolute;
-    top: 0;
-}
-
-.navbar {
+body {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: #3A3B4A;
+    width: 100vw;
 }
 
 .navbar-brand{

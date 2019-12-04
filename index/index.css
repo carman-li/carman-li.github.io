@@ -5,11 +5,7 @@ body {
     position: relative;
 }
 
-#navigation {
-    height: 10vh;;
-}
-
-.title.text-wrap {
+.title{
     font-weight: bold;
     font-size:5em;
 }
@@ -18,7 +14,7 @@ body {
     background: linear-gradient(to top, #F4CDCC 45%, transparent 45%);
 }
 
-.subheading.text-wrap {
+.subheading {
     font-weight: bold;
     font-size:1.25em;
     letter-spacing: 0.2em;
@@ -29,3 +25,23 @@ body {
     background-image: url(homeBackground.jpg);
     background-size: cover;
 }
+
+.navbar-brand{
+    position: fixed;
+    left: 50%;
+    top: 1%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 30em;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text,
+.navbar-custom .nav-link {
+    color: #3A3B4A;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58, 59, 74, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
