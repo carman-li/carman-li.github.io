@@ -5,8 +5,8 @@ body {
     position: relative;
 }
 
-#navbar {
-    width: 100vw;;
+#navigation {
+    height: 10vh;;
 }
 
 .title.text-wrap {
