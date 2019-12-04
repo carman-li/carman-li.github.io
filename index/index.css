@@ -2,6 +2,11 @@ body {
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
     color: #3A3B4A;
+    position: relative;
+}
+
+#navbar {
+    width: 100vw;;
 }
 
 .title.text-wrap {
@@ -11,18 +16,12 @@ body {
 
 .highlight {
     background: linear-gradient(to top, #F4CDCC 45%, transparent 45%);
-    max-width: 150%;
 }
 
 .subheading.text-wrap {
     font-weight: bold;
     font-size:1.25em;
     letter-spacing: 0.2em;
-}
-
-#first-line.subheading {
-    /* padding-top: 0.4em;
-    margin-bottom: 0.2em; */
 }
 
 .container-fluid {

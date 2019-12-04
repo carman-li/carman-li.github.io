@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>carman li</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div id="navigation"></div>
+
+    <div class="container-fluid">
+        <div class="row align-items-end h-50">
+            <div class="col-1"></div>
+            <div class="col">
+                <h1 class="title text-wrap">
+                    <span class="highlight">Hello!</span>
+                </h1>
+            </div>
+            <div class="col-6"></div>
+        </div>
+        <div class="row align-items-start">
+            <div class="col-1"></div>
+            <div class="col">
+                <span></span>
+                <h1 id="first-line" class="subheading text-wrap">
+                    welcome to my portfolio.
+                </h1>
+                <h1 class="subheading text-wrap">
+                    feel free to explore.
+                </h1>
+            </div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+            $("#navigation").load("navbar.html");
+        });
+    </script>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
