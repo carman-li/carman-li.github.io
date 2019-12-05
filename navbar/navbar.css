@@ -19,7 +19,7 @@ body {
     color: #3A3B4A;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -28,6 +28,6 @@ body {
     color: #3A3B4A;
 }
 
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58, 59, 74, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.navbar-toggler-icon {
+    background-color: #3A3B4A;
   }
