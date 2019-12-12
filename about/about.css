@@ -6,7 +6,7 @@ body {
 
     border: 20px solid white;
     box-shadow: inset 0px 0px 0px 10px #F5F4F4;
-    margin: 15vh 14vw;
+    margin: 15vh 20vw;
 }
 
 div {
@@ -45,5 +45,5 @@ div {
 }
 
 .row {
-    min-height: 16vh;
+    min-height: 5vh;
 }
