@@ -3,8 +3,10 @@ body {
     position: relative;
 
     height: 100vh;
-    background-image: url(homeBackground.jpg);
-    background-size: cover;
+
+    border: 20px solid white;
+    box-shadow: inset 0px 0px 0px 10px #F5F4F4;
+    margin: 15vh 14vw;
 }
 
 div {
@@ -15,6 +17,7 @@ div {
 
 .title{
     font-size:5em;
+    line-height: 5rem;
 }
 
 .highlight {
@@ -22,10 +25,25 @@ div {
 }
 
 .subheading {
-    font-size:1.25em;
+    font-size:1.1em;
     letter-spacing: 0.2em;
 }
 
+#profile {
+    float:right;
+    height: 100%;
+
+    box-shadow: 10px 10px 5px #F5F4F4;
+}
+
+#frame {
+    max-height: 80vh;
+}
+
+#zigHeading {
+    padding-top: 2rem;
+}
+
 .row {
-    min-height: 17vh;
+    min-height: 16vh;
 }
