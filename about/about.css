@@ -2,8 +2,8 @@ body {
     overflow-x: hidden;
     position: relative;
     height: 100vh;
-    margin: 0;
-    padding: 0;
+    margin: 1vw;
+    padding: 3vw;
     border: 3vw;
 }
 
@@ -20,6 +20,7 @@ div {
 .title {
     font-size: 7vw;
     margin: 0;
+    padding-left: 5vw;
 }
 
 .highlight {
@@ -31,9 +32,17 @@ div {
     letter-spacing: 0.2em;
     margin: 0;
     padding: 0;
+    padding-left: 5vw;
+}
+
+.subsubheading {
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    font-size: 2.5vw;
 }
 
 #profile {
+    float: none;
     max-height: 80vh;
     width: auto;
     box-shadow: 10px 10px 5px #F5F4F4;
@@ -52,15 +61,26 @@ div {
 }
 
 @media only screen and (min-width: 576px) {
-    body {
-        /* border: 5px solid white;
-        border-width: 4vh 13vw; */
-        /* box-shadow: inset 0px 0px 0px 15px #F5F4F4; */
+    /* body {
+        border: 5px solid white;
+        border-width: 4vh 13vw;
+        box-shadow: inset 0px 0px 0px 15px #F5F4F4;
+    } */
+    #profile {
+        float: right;
+    }
+    #frame {
+        text-align: right;
     }
     .title {
-        font-size: 4.3vw;
+        font-size: 4.5vw;
+        padding-left: 0;
     }
     .subheading {
-        font-size: 1.2vw;
+        font-size: 1.7vw;
+        padding-left: 0;
+    }
+    .subsubheading {
+        font-size: 1.3vw;
     }
 }
