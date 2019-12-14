@@ -42,6 +42,7 @@ div {
 }
 
 #backgroundTextDiv {
+    z-index: -900;
     display: none;
 }
 
@@ -56,6 +57,15 @@ div {
 .paragraph {
     padding: 0;
     padding-left: 5vw;
+    text-shadow: 2px 2px 4px #F5F4F4;
+}
+
+.link {
+    color: #F4CDCC;
+}
+
+.link:hover {
+    color: #F5F4F4;
 }
 
 @media only screen and (min-width: 576px) {
