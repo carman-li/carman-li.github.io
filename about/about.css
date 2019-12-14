@@ -3,7 +3,9 @@ body {
     position: relative;
     height: 100vh;
     margin: 1vw;
-    padding: 3vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    padding: 5vw;
     border: 3vw;
 }
 
@@ -18,7 +20,7 @@ div {
 }
 
 .title {
-    font-size: 7vw;
+    font-size: 3rem;
     margin: 0;
     padding-left: 5vw;
 }
@@ -28,17 +30,18 @@ div {
 }
 
 .subheading {
-    font-size: 3vw;
+    font-size: 1rem;
     letter-spacing: 0.2em;
     margin: 0;
     padding: 0;
     padding-left: 5vw;
+    text-shadow: 2px 2px 4px #F5F4F4;
 }
 
 .subsubheading {
     font-weight: normal;
     letter-spacing: 0.1em;
-    font-size: 2.5vw;
+    font-size: 1rem;
 }
 
 #profile {
@@ -58,6 +61,24 @@ div {
 
 .number {
     color: #C1DBE3;
+    text-shadow: 2px 2px 4px #F5F4F4;
+}
+
+.goal {
+    margin-top: 2.3em;
+    margin-left: -1vw;
+}
+
+.regularText {
+    font-weight: normal;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.paragraph {
+    padding: 0;
 }
 
 @media only screen and (min-width: 576px) {
@@ -79,8 +100,5 @@ div {
     .subheading {
         font-size: 1.7vw;
         padding-left: 0;
-    }
-    .subsubheading {
-        font-size: 1.3vw;
     }
 }
