@@ -7,15 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="../navbar/navbar.css" type="text/css"> -->
+    <link rel="stylesheet" href="../navbar/navbar.css">
     <link rel="stylesheet" href="index.css" type="text/css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="index.js"></script>
-    <!-- <script src="navbar.js"></script> -->
 
 
 </head>
@@ -23,10 +21,10 @@
 <body>
 
     <div class="container-fluid">
-        <div class="row align-items-start">
+        <div class="row">
             <div id="header"></div>
         </div>
-        <div class="row"></div>
+        <div class="row" id="rowOne"></div>
         <div class="row align-items-end">
             <div class="col-1"></div>
             <div class="col">
@@ -36,16 +34,20 @@
             </div>
             <div class="col-6"></div>
         </div>
-        <div class="row align-items-start">
+        <div class="row">
             <div class="col-1"></div>
             <div class="col">
-                <span></span>
-                <p id="first-line" class="subheading">
-                    welcome to my portfolio.
-                </p>
-                <p class="subheading text-wrap">
-                    feel free to explore.
-                </p>
+                <div class="row"></div>
+                <div class="subheading">
+                    <span id="first-line">
+                        welcome to my website.
+                    </span>
+                </div>
+                <div class="subheading">
+                    <span id="first-line">
+                        feel free to explore.
+                    </span>
+                </div>
             </div>
             <div class="col-6"></div>
         </div>

@@ -1,18 +1,12 @@
-body {
-    width: 100vw;
+.navbar {
+    width: 100%;
 }
 
-#nav {
-    font-size: 2em;
+.navbar-brand {
+    font-size: 1.5rem;
     color: #3A3B4A;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 2em;
-
-    position: fixed;
-    left: 50%;
-    top: 1%;
-    transform: translateX(-50%);
 }
 
 .nav-link {
@@ -20,8 +14,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 1.25em;
+    float: right;
 }
+
+
 /* change the brand and text color */
+
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text,
 .navbar-custom .nav-link {
@@ -29,5 +27,25 @@ body {
 }
 
 .navbar-toggler-icon {
-    background-color: #3A3B4A;
-  }
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58, 59, 74, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+a:visited {
+    color: #3A3B4A;
+}
+
+a:hover {
+    color: #F5F4F4;
+}
+
+#nav:hover {
+    text-decoration: none;
+}

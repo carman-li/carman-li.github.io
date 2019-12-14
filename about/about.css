@@ -9,6 +9,10 @@ body {
     border: 3vw;
 }
 
+#header {
+    width: 100%;
+}
+
 .container-fluid {
     align-items: center;
 }
@@ -30,7 +34,6 @@ div {
 }
 
 .subheading {
-    font-size: 1rem;
     letter-spacing: 0.2em;
     margin: 0;
     padding: 0;
@@ -41,7 +44,6 @@ div {
 .subsubheading {
     font-weight: normal;
     letter-spacing: 0.1em;
-    font-size: 1rem;
 }
 
 #profile {
@@ -98,7 +100,6 @@ div {
         padding-left: 0;
     }
     .subheading {
-        font-size: 1.7vw;
         padding-left: 0;
     }
 }

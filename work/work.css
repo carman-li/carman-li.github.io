@@ -2,13 +2,19 @@ body {
     overflow-x: hidden;
     position: relative;
     height: 100vh;
-    background-image: url(homeBackground.jpg);
-    background-size: cover;
     margin: 1vw;
     margin-right: 10vw;
     margin-left: 10vw;
     padding: 5vw;
     border: 3vw;
+}
+
+#header {
+    width: 100%;
+}
+
+.container-fluid {
+    align-items: center;
 }
 
 div {
@@ -20,6 +26,7 @@ div {
 .title {
     font-size: 3rem;
     margin: 0;
+    padding-left: 5vw;
 }
 
 .highlight {
@@ -28,19 +35,27 @@ div {
 
 .subheading {
     letter-spacing: 0.2em;
+    margin: 0;
+    padding: 0;
+    padding-left: 5vw;
     text-shadow: 2px 2px 4px #F5F4F4;
+}
+
+#backgroundTextDiv {
+    display: none;
 }
 
 .row {
     min-height: 3vh;
 }
 
-#rowOne {
-    min-height: 30vh;
+.regularText {
+    font-weight: normal;
 }
 
-#header {
-    width: 100%;
+.paragraph {
+    padding: 0;
+    padding-left: 5vw;
 }
 
 @media only screen and (min-width: 576px) {
@@ -51,5 +66,22 @@ div {
     } */
     .title {
         font-size: 4.5vw;
+        padding-left: 0;
+    }
+    .subheading {
+        padding-left: 0;
+    }
+    .paragraph {
+        padding-left: 0;
+    }
+    #backgroundTextDiv {
+        display: inline;
+        color: #F5F4F4;
+        font-size: 25vw;
+        white-space: nowrap;
+        left: -12%;
+        align-items: center;
+        margin-bottom: -30vh;
+        margin-top: -20vh;
     }
 }
