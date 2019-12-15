@@ -1,8 +1,5 @@
 $(function() {
     $("#header").load("../navbar/navbar.html");
-});
-
-$(function() {
     $("#footer").load("../footer/footer.html");
 });
 

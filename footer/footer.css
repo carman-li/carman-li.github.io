@@ -1,3 +1,8 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
 .page-footer {
     width: 100%;
     color: #3A3B4A;
@@ -6,15 +11,20 @@
     font-size: 1em;
 }
 
-.row {
+.footerRow {
     text-align: center;
 }
 
-div {
+.footerDiv {
     padding: 0.3em;
 }
 
-a {
+.footerText {
+    text-shadow: 2px 2px 4px lightgrey;
+    font-size: 75%;
+}
+
+.footerLink {
     text-decoration: none;
     padding: 10px;
 }
