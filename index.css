@@ -3,12 +3,20 @@ body {
     position: relative;
     height: 100vh;
     background-image: url(homeBackground.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     margin: 1vw;
     margin-right: 10vw;
     margin-left: 10vw;
     padding: 5vw;
     border: 3vw;
+    opacity: 1;
+    transition: 3s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 div {
@@ -28,7 +36,7 @@ div {
 
 .subheading {
     letter-spacing: 0.2em;
-    text-shadow: 2px 2px 4px #F5F4F4;
+    text-shadow: 2px 2px 4px lightgrey;
 }
 
 .row {
@@ -43,12 +51,19 @@ div {
     width: 100%;
 }
 
+#rowFill {
+    height: 80vh;
+}
+
 @media only screen and (min-width: 576px) {
     /* body {
         border: 5px solid white;
         border-width: 4vh 13vw;
         box-shadow: inset 0px 0px 0px 15px #F5F4F4;
     } */
+    body {
+        background-size: 120%;
+    }
     .title {
         font-size: 4.5vw;
     }

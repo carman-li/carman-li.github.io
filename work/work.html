@@ -8,20 +8,28 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../navbar/navbar.css">
+    <link rel="stylesheet" href="footer.css" type="text/css">
     <link rel="stylesheet" href="work.css" type="text/css">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/6cf1e94e00.js" crossorigin="anonymous"></script>
     <script src="work.js"></script>
 
 
 </head>
 
 <body>
+    <script>
+        document.body.className += ' fade-out';
+    </script>
+
     <div class="container-fluid">
         <div class="row">
-            <div id="header"></div>
+            <div class="col">
+                <div id="header"></div>
+            </div>
         </div>
         <div class="row">
             <div class="col" id="backgroundTextDiv">
@@ -54,12 +62,15 @@
         <div class="row"></div>
         <div class="row">
             <div class="col">
-                <span class="paragraph">click <span class="link">here</span> to download my resume.</span>
+                <span class="paragraph">click <a href="../Carman Resume.pdf" download class="link">here</a> to download my resume.</span>
                 </p>
             </div>
         </div>
+        <div class="row" id="rowFill"></div>
         <div class="row">
-            <div id="footer"></div>
+            <div class="col">
+                <div id="footer"></div>
+            </div>
         </div>
     </div>
 </body>
