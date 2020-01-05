@@ -48,7 +48,7 @@ div {
     margin: 0;
     padding: 0;
     padding-left: 5vw;
-    text-shadow: 2px 2px 4px lightgrey;
+    /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
 #backgroundTextDiv {
@@ -67,7 +67,7 @@ div {
 .paragraph {
     padding: 0;
     padding-left: 5vw;
-    text-shadow: 2px 2px 4px lightgrey;
+    /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
 .link {

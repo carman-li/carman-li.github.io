@@ -49,19 +49,19 @@ div {
     margin: 0;
     padding: 0;
     padding-left: 5vw;
-    text-shadow: 2px 2px 4px lightgrey;
+    /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
 .subsubheading {
     font-weight: normal;
     letter-spacing: 0.1em;
-    text-shadow: 2px 2px 4px lightgrey;
+    /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
 #profile {
     max-height: 80vh;
     width: auto;
-    box-shadow: 10px 10px 5px lightgrey, -25px -25px #C1DBE3;
+    box-shadow: 10px 10px 7px lightgrey;
     border-radius: 15px;
 }
 
@@ -76,7 +76,7 @@ div {
 
 .number {
     color: #C1DBE3;
-    text-shadow: 2px 2px 4px lightgrey;
+    /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
 .goal {
