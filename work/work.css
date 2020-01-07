@@ -61,7 +61,7 @@ div {
 .highlight::before {
     content: "";
     position: absolute;
-    background: linear-gradient(to top, #F4CDCC 36%, transparent 36%);
+    background: linear-gradient(to top, #DEBBBA 36%, transparent 36%);
     top: 0;
     left: 0;
     width: 0;
@@ -101,14 +101,14 @@ div {
 }
 
 .link {
-    color: #3A3B4A;
+    color: #DEBBBA;
     text-shadow: none;
 }
 
 .link:hover {
     color: #3A3B4A;
     text-decoration: none;
-    background: linear-gradient(to top,transparent 10%, #F4CDCC 10% 50%, transparent 50%)
+    background: transparent;
 }
 
 #rowFill {
@@ -133,7 +133,7 @@ div {
     }
     #backgroundTextDiv {
         display: inline;
-        color: #E5EEFF;
+        color: #CED9EF;
         font-size: 25vw;
         white-space: nowrap;
         left: -12%;

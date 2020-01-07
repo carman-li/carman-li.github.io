@@ -18,7 +18,7 @@ body {
 }
 
 .background {
-    background-color: #EBF2FF;
+    background-color: #DEE8FC;
 }
 
 #parent {
@@ -59,7 +59,7 @@ div {
 .highlight::before {
     content: "";
     position: absolute;
-    background: linear-gradient(to top, #F4CDCC 36%, transparent 36%);
+    background: linear-gradient(to top, #DEBBBA 36%, transparent 36%);
     top: 0;
     left: 0;
     width: 0;

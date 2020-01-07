@@ -53,7 +53,7 @@ a:visited {
 }
 
 a:hover {
-    background: linear-gradient(to top,transparent 10%, #F4CDCC 10% 45%, transparent 45%)
+    background: linear-gradient(to top,transparent 10%, #DEBBBA 10% 45%, transparent 45%)
 }
 
 a.navbar-brand:hover {

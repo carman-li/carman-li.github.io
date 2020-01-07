@@ -62,7 +62,7 @@ div {
 .highlight::before {
     content: "";
     position: absolute;
-    background: linear-gradient(to top, #F4CDCC 36%, transparent 36%);
+    background: linear-gradient(to top, #DEBBBA 36%, transparent 36%);
     top: 0;
     left: 0;
     width: 0;
@@ -105,7 +105,7 @@ div {
 }
 
 .number {
-    color: #C1DBE3;
+    color: #CED9EF;
     /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
