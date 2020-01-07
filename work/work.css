@@ -14,6 +14,10 @@ body {
     transition: 3s opacity;
 }
 
+.background {
+    background-color: #EBF2FF;
+}
+
 body.fade-out {
     opacity: 0;
     transition: none;
@@ -39,8 +43,34 @@ div {
     padding-left: 5vw;
 }
 
-.highlight {
+@keyframes highlighter {
+    from{width: 0;}
+    to{width: 100%;}
+}
+
+@-webkit-keyframes highlighter {
+    0%{width: 0;}
+    100%{width: 100%;}
+}
+
+.highlight { 
+    position: relative;
+    background: transparent;
+}
+
+.highlight::before {
+    content: "";
+    position: absolute;
     background: linear-gradient(to top, #F4CDCC 36%, transparent 36%);
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: all .5s;
+    z-index: -1;
+    /* @keyframes duration | timing-function | delay |iteration-count | direction | fill-mode | play-state | name */
+    animation: 0.5s ease-in-out 1s 1 normal forwards running highlighter;
+    -webkit-animation: 0.5s ease-in-out 1s 1 normal forwards running highlighter;
 }
 
 .subheading {
@@ -71,12 +101,14 @@ div {
 }
 
 .link {
-    color: #F4CDCC;
+    color: #3A3B4A;
     text-shadow: none;
 }
 
 .link:hover {
-    color: #F5F4F4;
+    color: #3A3B4A;
+    text-decoration: none;
+    background: linear-gradient(to top,transparent 10%, #F4CDCC 10% 50%, transparent 50%)
 }
 
 #rowFill {
@@ -101,7 +133,7 @@ div {
     }
     #backgroundTextDiv {
         display: inline;
-        color: #F5F4F4;
+        color: #E5EEFF;
         font-size: 25vw;
         white-space: nowrap;
         left: -12%;

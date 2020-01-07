@@ -1,10 +1,11 @@
 $(function() {
-    $("#header").load("../navbar/navbar.html");
     $("#footer").load("../footer/footer.html");
+    $("#header").load("../navbar/navbar.html");
 });
 
 $(function() {
     $('body').removeClass('fade-out');
+    $('body').addClass("background");
 });
 
 $(document).ready(function() {

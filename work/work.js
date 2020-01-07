@@ -8,4 +8,5 @@ $(function() {
 
 $(function() {
     $('body').removeClass('fade-out');
+    $('body').addClass("background");
 });

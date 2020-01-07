@@ -14,6 +14,10 @@ body {
     transition: 3s opacity;
 }
 
+.background {
+    background-color: #EBF2FF;
+}
+
 body.fade-out {
     opacity: 0;
     transition: none;
@@ -40,8 +44,34 @@ div {
     padding-left: 5vw;
 }
 
-.highlight {
+@keyframes highlighter {
+    from{width: 0;}
+    to{width: 100%;}
+}
+
+@-webkit-keyframes highlighter {
+    0%{width: 0;}
+    100%{width: 100%;}
+}
+
+.highlight { 
+    position: relative;
+    background: transparent;
+}
+
+.highlight::before {
+    content: "";
+    position: absolute;
     background: linear-gradient(to top, #F4CDCC 36%, transparent 36%);
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: all .5s;
+    z-index: -1;
+    /* @keyframes duration | timing-function | delay |iteration-count | direction | fill-mode | play-state | name */
+    animation: 0.5s ease-in-out 1s 1 normal forwards running highlighter;
+    -webkit-animation: 0.5s ease-in-out 1s 1 normal forwards running highlighter;
 }
 
 .subheading {
@@ -62,7 +92,7 @@ div {
     max-height: 80vh;
     width: auto;
     box-shadow: 10px 10px 7px lightgrey;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 #frame {
@@ -80,7 +110,7 @@ div {
 }
 
 .goal {
-    margin-top: 2.3em;
+    margin-top: 4em;
     margin-left: -1vw;
 }
 
@@ -106,6 +136,9 @@ div {
         border-width: 4vh 13vw;
         box-shadow: inset 0px 0px 0px 15px #F5F4F4;
     } */
+    body {
+        padding-right: 10vw;
+    }
     #frame {
         text-align: right;
         padding-right: 5vw;

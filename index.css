@@ -5,9 +5,9 @@ html {
 body {
     overflow-x: hidden;
     position: relative;
-    background-image: url(homeBackground.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url(homeBackground.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     margin: 1vw;
     margin-right: 10vw;
     margin-left: 10vw;
@@ -15,6 +15,10 @@ body {
     border: 3vw;
     opacity: 1;
     transition: 3s opacity;
+}
+
+.background {
+    background-color: #EBF2FF;
 }
 
 #parent {
@@ -37,8 +41,34 @@ div {
     margin: 0;
 }
 
-.highlight {
+@keyframes highlighter {
+    from{width: 0;}
+    to{width: 100%;}
+}
+
+@-webkit-keyframes highlighter {
+    0%{width: 0;}
+    100%{width: 100%;}
+}
+
+.highlight { 
+    position: relative;
+    background: transparent;
+}
+
+.highlight::before {
+    content: "";
+    position: absolute;
     background: linear-gradient(to top, #F4CDCC 36%, transparent 36%);
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: all .5s;
+    z-index: -1;
+    /* @keyframes duration | timing-function | delay |iteration-count | direction | fill-mode | play-state | name */
+    animation: 0.5s ease-in-out 1s 1 normal forwards running highlighter;
+    -webkit-animation: 0.5s ease-in-out 1s 1 normal forwards running highlighter;
 }
 
 .subheading {
@@ -72,9 +102,6 @@ div {
         border-width: 4vh 13vw;
         box-shadow: inset 0px 0px 0px 15px #F5F4F4;
     } */
-    body {
-        background-size: 120%;
-    }
     .title {
         font-size: 4.5vw;
     }
