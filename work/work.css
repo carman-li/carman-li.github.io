@@ -15,7 +15,7 @@ body {
 }
 
 .background {
-    background-color: #EBF2FF;
+    background-color: #EFF3F9;
 }
 
 body.fade-out {
@@ -133,7 +133,7 @@ div {
     }
     #backgroundTextDiv {
         display: inline;
-        color: #CED9EF;
+        color: #EBF2FF;
         font-size: 25vw;
         white-space: nowrap;
         left: -12%;
