@@ -9,6 +9,8 @@ body {
     margin-right: 10vw;
     margin-left: 10vw;
     padding: 5vw;
+    padding-right: 7vw;
+    padding-left: 7vw;
     border: 3vw;
     opacity: 1;
     transition: 3s opacity;
@@ -136,9 +138,6 @@ div {
         border-width: 4vh 13vw;
         box-shadow: inset 0px 0px 0px 15px #F5F4F4;
     } */
-    body {
-        padding-right: 10vw;
-    }
     #frame {
         text-align: right;
         padding-right: 5vw;
