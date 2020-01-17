@@ -16,8 +16,12 @@ body {
     transition: 3s opacity;
 }
 
+.coloured {
+    color: #96A7A7;
+}
+
 .background {
-    background-color: #EFF3F9;
+    background-color: #FFFEF9;
 }
 
 body.fade-out {
@@ -64,7 +68,7 @@ div {
 .highlight::before {
     content: "";
     position: absolute;
-    background: linear-gradient(to top, #DEBBBA 36%, transparent 36%);
+    background: linear-gradient(to top, #BDCBCB 36%, transparent 36%);
     top: 0;
     left: 0;
     width: 0;
@@ -84,11 +88,11 @@ div {
     /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
-.subsubheading {
+ /* .subsubheading {
     font-weight: normal;
     letter-spacing: 0.1em;
     /* text-shadow: 2px 2px 4px lightgrey; */
-}
+}  */
 
 #profile {
     max-height: 80vh;
@@ -107,21 +111,30 @@ div {
 }
 
 .number {
-    color: #D3DAEA;
+    font-size: 3rem;
+    color: #BDCBCB;
+    padding-right: 0;
+    padding-left: auto;
+    margin: 0;
     /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
 .goal {
-    margin-top: 4em;
-    margin-left: -1vw;
+    display: table-cell;
+    vertical-align: center;
 }
 
 .regularText {
     font-weight: normal;
+    color: #3A3B4A;
 }
 
 .strikethrough {
     text-decoration: line-through;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .paragraph {
@@ -133,12 +146,11 @@ div {
 }
 
 .link, .link:visited {
-    color: #3A3B4A;
+    color: #96A7A7;
 }
 
 .link:hover {
     color: #3A3B4A;
-    background: linear-gradient(to top,transparent 10%, #DEBBBA 10% 35%, transparent 35%);
     text-decoration: none;
 }
 
@@ -155,6 +167,9 @@ div {
     .title {
         font-size: 4.5vw;
         padding-left: 0;
+    }
+    .number {
+        font-size: 3vw;
     }
     .subheading {
         padding-left: 0;
