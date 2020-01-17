@@ -74,7 +74,7 @@ div {
 }
 
 .subheading {
-    letter-spacing: 0.2em;
+    /* letter-spacing: 0.2em; */
     margin: 0;
     padding: 0;
     padding-left: 5vw;

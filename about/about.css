@@ -47,7 +47,7 @@ div {
 .title {
     font-size: 3rem;
     margin: 0;
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
 }
 
 @keyframes highlighter {
@@ -81,10 +81,10 @@ div {
 }
 
 .subheading {
-    letter-spacing: 0.1em;
+    /* letter-spacing: 0.1em; */
     margin: 0;
     padding: 0;
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
     /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
@@ -117,11 +117,6 @@ div {
     padding-left: auto;
     margin: 0;
     /* text-shadow: 2px 2px 4px lightgrey; */
-}
-
-.goal {
-    display: table-cell;
-    vertical-align: center;
 }
 
 .regularText {

@@ -6,23 +6,23 @@ body {
 nav.navbar {
     background-color: #FFFEF9;
     z-index: 1;
-    float: right;
     padding: 1.5rem;
     padding-left: 2rem;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     font-size: 1.2rem;
     color: #3A3B4A;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-}
+} */
 
 a.nav-link {
     color: #3A3B4A;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 1rem;
+    float: left;
 }
 
 
