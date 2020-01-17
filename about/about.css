@@ -77,7 +77,7 @@ div {
 }
 
 .subheading {
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     margin: 0;
     padding: 0;
     padding-left: 5vw;
@@ -130,6 +130,16 @@ div {
 
 #rowFill {
     height: 80vh;
+}
+
+.link, .link:visited {
+    color: #3A3B4A;
+}
+
+.link:hover {
+    color: #3A3B4A;
+    background: linear-gradient(to top,transparent 10%, #DEBBBA 10% 35%, transparent 35%);
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 576px) {

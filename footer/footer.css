@@ -20,7 +20,7 @@ body {
 }
 
 .footerText {
-    text-shadow: 2px 2px 4px lightgrey;
+    /* text-shadow: 2px 2px 4px lightgrey; */
     font-size: 75%;
 }
 
