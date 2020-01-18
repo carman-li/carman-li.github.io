@@ -33,6 +33,10 @@ body.fade-out {
     width: 100%;
 }
 
+#footer {
+    padding-top: 30vh;
+}
+
 
 /* .container-fluid {
     align-items: center;
@@ -47,6 +51,7 @@ div {
 .title {
     font-size: 3rem;
     margin: 0;
+    margin-bottom: 10vh;
     /* padding-left: 5vw; */
 }
 
@@ -120,7 +125,7 @@ div {
 }
 
 .row-filler {
-    height: 2vw;
+    height: 2rem;
 }
 
 .regularText {
