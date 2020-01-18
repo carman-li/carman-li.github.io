@@ -9,15 +9,9 @@ body {
     margin-right: 10vw;
     margin-left: 10vw;
     padding: 5vw;
-    padding-right: 7vw;
-    padding-left: 7vw;
     border: 3vw;
     opacity: 1;
     transition: 3s opacity;
-}
-
-.coloured {
-    color: #96A7A7;
 }
 
 .background {
@@ -33,10 +27,9 @@ body.fade-out {
     width: 100%;
 }
 
-
-/* .container-fluid {
+.container-fluid {
     align-items: center;
-} */
+}
 
 div {
     font-family: 'Open Sans', sans-serif;
@@ -47,7 +40,8 @@ div {
 .title {
     font-size: 3rem;
     margin: 0;
-    /* padding-left: 5vw; */
+    padding-left: 5vw;
+    text-align: center;
 }
 
 @keyframes highlighter {
@@ -81,76 +75,44 @@ div {
 }
 
 .subheading {
-    /* letter-spacing: 0.1em; */
+    /* letter-spacing: 0.2em; */
     margin: 0;
     padding: 0;
-    /* padding-left: 5vw; */
+    padding-left: 5vw;
     /* text-shadow: 2px 2px 4px lightgrey; */
-}
-
- /* .subsubheading {
-    font-weight: normal;
-    letter-spacing: 0.1em;
-    /* text-shadow: 2px 2px 4px lightgrey; */
-}  */
-
-#profile {
-    max-height: 80vh;
-    width: auto;
-    box-shadow: 10px 10px 7px lightgrey;
-    /* border-radius: 15px; */
-}
-
-#frame {
-    text-align: center;
-    padding: 0;
 }
 
 .row {
     min-height: 3vh;
 }
 
-.number {
-    font-size: 3rem;
-    color: #BDCBCB;
-    padding-right: 0;
-    padding-left: auto;
-    margin: 0;
-    /* text-shadow: 2px 2px 4px lightgrey; */
-}
-
-.row-filler {
-    height: 2vw;
-}
-
 .regularText {
     font-weight: normal;
-    color: #3A3B4A;
-}
-
-.strikethrough {
-    text-decoration: line-through;
-}
-
-.italic {
-    font-style: italic;
 }
 
 .paragraph {
     padding: 0;
+    padding-left: 5vw;
+    /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
-#rowFill {
-    height: 80vh;
-}
-
-.link, .link:visited {
+.link {
     color: #96A7A7;
+    text-shadow: none;
 }
 
 .link:hover {
     color: #3A3B4A;
     text-decoration: none;
+    background: transparent;
+}
+
+.filler {
+    height: 5vh;
+}
+
+#rowFill {
+    height: 80vh;
 }
 
 @media only screen and (min-width: 576px) {
@@ -159,18 +121,14 @@ div {
         border-width: 4vh 13vw;
         box-shadow: inset 0px 0px 0px 15px #F5F4F4;
     } */
-    #frame {
-        text-align: right;
-        padding-right: 5vw;
-    }
     .title {
         font-size: 4.5vw;
         padding-left: 0;
     }
-    .number {
-        font-size: 3vw;
-    }
     .subheading {
+        padding-left: 0;
+    }
+    .paragraph {
         padding-left: 0;
     }
 }
