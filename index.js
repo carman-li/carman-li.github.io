@@ -3,7 +3,7 @@ $(function() {
     $("#header").load("navbar/navbar.html");
 });
 
-// $(function() {
-//     $('body').removeClass('fade-out');
-//     $('body').addClass("background");
-// });
+$(function() {
+    $('body').removeClass('invisible');
+    $('body').addClass("background");
+});

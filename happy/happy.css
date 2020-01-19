@@ -116,6 +116,16 @@ div {
     height: 80vh;
 }
 
+.collage {
+    padding-bottom: 2rem;
+}
+
+.caption {
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
 @media only screen and (min-width: 576px) {
     /* body {
         border: 5px solid white;
@@ -131,5 +141,9 @@ div {
     }
     .paragraph {
         padding-left: 0;
+    }
+    .tweet {
+        max-width: 45vw;
+        height: auto;
     }
 }
