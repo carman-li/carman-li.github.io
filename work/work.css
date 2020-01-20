@@ -106,6 +106,12 @@ div {
     background: transparent;
 }
 
+.link:visited {
+    color: #96A7A7;
+    text-shadow: none;
+    font-weight: 900;
+}
+
 #rowFill {
     height: 80vh;
 }
