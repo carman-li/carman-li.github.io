@@ -9,7 +9,7 @@ body {
     margin-right: 10vw;
     margin-left: 10vw;
     padding: 5vw;
-    border: 3vw;
+    padding-bottom: 0;
     opacity: 1;
     transition: 3s opacity;
 }
@@ -95,21 +95,13 @@ div {
     /* text-shadow: 2px 2px 4px lightgrey; */
 }
 
-.link {
+.link, .link:visited {
     color: #96A7A7;
-    text-shadow: none;
 }
 
 .link:hover {
     color: #3A3B4A;
     text-decoration: none;
-    background: transparent;
-}
-
-.link:visited {
-    color: #96A7A7;
-    text-shadow: none;
-    font-weight: 900;
 }
 
 #rowFill {
@@ -119,6 +111,10 @@ div {
 #backgroundTextDiv {
     z-index: -900;
     display: none;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {

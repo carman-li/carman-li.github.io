@@ -11,6 +11,7 @@ body {
     padding: 5vw;
     padding-right: 7vw;
     padding-left: 7vw;
+    padding-bottom: 0;
     border: 3vw;
     opacity: 1;
     transition: 3s opacity;
