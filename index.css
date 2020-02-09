@@ -2,20 +2,21 @@ html {
     overflow-x: hidden;
 }
 
-body {
+body{
     background-size: cover;
     margin: 1vw;
     margin-right: 10vw;
     margin-left: 10vw;
-    padding: 5vw;
+    /* padding: 5vw; */
+    padding-top: 5vw;
     padding-bottom: 0;
     opacity: 1;
     /* transition: 3s opacity; */
 }
 
-.background {
-    /* background-color: #EFF3F9; */
+#bodyDiv {
     background-color: #FFFEF9;
+    padding: 0;
 }
 
 #parent {
