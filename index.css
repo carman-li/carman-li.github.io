@@ -2,7 +2,7 @@ html {
     overflow-x: hidden;
 }
 
-body{
+body {
     background-size: cover;
     margin: 1vw;
     margin-right: 10vw;
@@ -11,7 +11,7 @@ body{
     padding-top: 5vw;
     padding-bottom: 0;
     opacity: 1;
-    /* transition: 3s opacity; */
+    transition: 3s opacity;
 }
 
 #bodyDiv {
@@ -23,10 +23,10 @@ body{
     overflow-x: hidden;
 }
 
-/* body.fade-out {
+body.fade-out {
     opacity: 0;
     transition: none;
-} */
+}
 
 div {
     font-family: 'Open Sans', sans-serif;
@@ -47,19 +47,6 @@ div {
     100% {
         opacity: 1;
     }
-}
-
-.invisible {
-    opacity: 0;
-}
-
-.title {
-    white-space: nowrap;
-    opacity: 0;
-    font-size: 1.4rem;
-    margin: 0;
-    /* @keyframes duration | timing-function | delay |iteration-count | direction | fill-mode | play-state | name */
-    animation: 4s ease-out 1 normal forwards running drop-in;
 }
 
 @keyframes highlighter {
@@ -98,6 +85,15 @@ div {
     /* @keyframes duration | timing-function | delay |iteration-count | direction | fill-mode | play-state | name */
     animation: 0.5s ease-in-out 1s 1 normal forwards running highlighter;
     -webkit-animation: 0.5s ease-in-out 1s 1 normal forwards running highlighter;
+}
+
+.title {
+    white-space: nowrap;
+    opacity: 0;
+    font-size: 1.4rem;
+    margin: 0;
+    /* @keyframes duration | timing-function | delay |iteration-count | direction | fill-mode | play-state | name */
+    animation: 4s ease-out 1 normal forwards running drop-in;
 }
 
 .subheading {

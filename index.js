@@ -1,9 +1,12 @@
 $(function() {
-    $("#header").load("navbar/navbar.html");
-    $("#footer").load("footer/footer.html");
+  $("#header").load("navbar/navbar.html");
 });
 
-// $(function() {
-//     $('body').removeClass('invisible');
-//     $('body').addClass("background");
-// });
+$(function() {
+  $("#footer").load("footer/footer.html");
+});
+
+$(function() {
+  $("body").removeClass("fade-out");
+  $("body").addClass("background");
+});
