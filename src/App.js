@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import Header from './components/Header'
 import SectionHeading from './components/SectionHeading'
+import AnimatedSubtitle from './components/AnimatedSubtitle'
 import Landing from './components/Landing'
 import About from './components/About'
 import Experience from './components/Experience'
@@ -27,6 +28,11 @@ function App() {
                 <Landing />
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <AnimatedSubtitle />
+              </Col>
+            </Row>
             <Row md={1}>
               <Col lg={2}>
                 <SectionHeading content="What I'm up to:" />
@@ -37,6 +43,7 @@ function App() {
             </Row>
             <Row>
               <Col>
+                <SectionHeading content="Projects" />
                 <Projects />
               </Col>
             </Row>

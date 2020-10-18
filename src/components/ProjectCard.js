@@ -23,7 +23,7 @@ function ProjectCard(props) {
                 }
 
                 <Col lg={5}>
-                    <div className="projectHeading highlight">{props.title}</div>
+                    <div className="heading highlight">{props.title}</div>
                     <div className="text">{props.content}</div>
                     <br></br>
                     {taglineSplit.map((line) => {

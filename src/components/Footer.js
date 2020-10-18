@@ -9,12 +9,12 @@ function Footer() {
         <Container className="footer">
             <Row>
                 <Col>
-                    <div className="footerHeading">See ya around!</div>
+                    <div className="heading">See ya around!</div>
                 </Col>
             </Row>
             <Row>
                 <Col>
-                    <div className="footerText">Thanks so much for checking out my website. Please do reach out if you have any questions or just want to chat. 😎</div>
+                    <div className="text">Thanks so much for checking out my website. Please do reach out if you have any questions or just want to chat. 😎</div>
                 </Col>
             </Row>
             <Row>
@@ -29,7 +29,7 @@ function Footer() {
                 </Col>
             </Row>
             <Row>
-                <img className="logo" src={logo}></img>
+                <a href="https://carman-li.github.io/"><img className="logo" src={logo}></img></a>
             </Row>
         </Container>
     )

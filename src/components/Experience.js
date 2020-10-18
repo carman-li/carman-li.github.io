@@ -4,7 +4,7 @@ import { Container, Row, Col, Table } from 'react-bootstrap';
 function Experience() {
     return (
         <Container className="experience">
-            <Row className="experienceRow">
+            <Row>
                 <Col lg={2}>
                     <div className="text highlight">
                         Summer 2020
@@ -21,7 +21,7 @@ function Experience() {
                                     </div>
                 </Col>
             </Row>
-            <Row className="experienceRow">
+            <Row>
                 <Col lg={2}>
                     <div className="text highlight">
                         Fall 2019
@@ -38,7 +38,7 @@ function Experience() {
                                     </div>
                 </Col>
             </Row>
-            <Row className="experienceRow">
+            <Row >
                 <Col lg={2}>
                     <div className="text highlight">
                         Winter 2019

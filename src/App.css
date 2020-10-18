@@ -1,7 +1,26 @@
+.disappear {
+  opacity: 0;
+}
+
 .all {
   font-family: 'Nunito Sans', sans-serif;
-  justify-content: center;
+  opacity: 0;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+  animation: fadeIn 3s ease 0s 1 normal forwards running;
 }
+
+/* animation keyframes */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+/* everything but header and footer */
 
 .app {
   margin-top: 10vw;
@@ -9,23 +28,12 @@
   padding-bottom: 0;
 }
 
-a:visited, a:link {
-  color: #C2C2C2;
-  text-decoration: none;
-}
+/* TEXT STYLES */
 
-a:hover {
-  color: #6FA2AD;
-}
-
-.landing {
-  padding: 3vw 10vw;
+.title {
+  font-size: 3em;
+  font-weight: 600;
   text-align: center;
-}
-
-.row {
-  align-items: center;
-  justify-content: center;
 }
 
 /* headings for website sections */
@@ -36,14 +44,20 @@ a:hover {
   color: #C2C2C2;
 }
 
-.title {
-  font-size: 3em;
-  font-weight: 600;
-  text-align: center;
+.heading {
+  font-size: 1.5em;
+  font-weight: 800;
+  padding-bottom: 1vw;
 }
 
 .text {
   font-size: 1.2em;
+  padding-bottom: 2vw;
+}
+
+.tagline {
+  font-family: 'Courier New', Courier, monospace;
+  color: #C2C2C2;
 }
 
 /* bolded, coloured, highlight that doesn't change color on hover if it's a link */
@@ -57,49 +71,114 @@ a:hover {
   font-weight: 700;
 }
 
-.icon {
-  margin: 1.2vw;
+/* LINK STYLES */
+
+a:visited, a:link {
+  color: #C2C2C2;
+  text-decoration: none;
+  transition: color 1s ease;
 }
 
-.about {
-  margin-left: 2em;
+a:hover {
+  color: #6FA2AD;
 }
 
-.experience {
-  margin-top: 2em;
-}
+/* COMPONENT STYLES */
 
 .projects, .experience, .about {
   margin: 3vw 2vw 2vw 2vw;
-}
-
-.experienceRow {
-  padding-bottom: 2vw;
 }
 
 .projectCard {
   padding: 2vw;
 }
 
-.projectHeading {
-  font-size: 1.5em;
-  font-weight: 800;
+.landing {
+  padding: 3vw 2vw 3vw 2vw;
 }
 
-.tagline {
+/* ROW STYLING */
+
+.row {
+  align-items: center;
+  justify-content: center;
+}
+
+/* ICON STYLING */
+
+.icon {
+  margin: 1.2vw;
+}
+
+/* SUBTITLE STYLING */
+
+.animatedSubtitle {
   font-family: 'Courier New', Courier, monospace;
   color: #C2C2C2;
+  padding: 0;
+  opacity: 0;
+  font-weight: normal;
+  text-align: center;
+  max-width: max-content;
+  /* Ensures the content is not revealed until the animation */
+  overflow: hidden;
+  /* The typwriter cursor */
+  border-right: .1em solid #6FA2AD;
+  /* Keeps the content on a single line */
+  white-space: nowrap;
+  /* Gives that scrolling effect as the typing happens */
+  margin: 0 auto;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+  animation: typing 4s 2s steps(40, end), blink-caret .75s 2s steps(29, end) infinite, fade 1s 2s forwards;
 }
+
+/* coordinate with page fade in */
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: #6FA2AD;
+  }
+}
+
+/* PROJECT STYLING */
 
 .projectImage, .projectImageLink {
   max-width: 100%;
   margin-bottom: 2vw;
   border-radius: 0.5em;
+  transition: opacity 1s ease;
 }
 
 .projectImageLink:hover {
   opacity: 0.8;
 }
+
+/* FOOTER STYLES */
 
 .footer {
   background-color: #fcfcfc;
@@ -111,20 +190,11 @@ a:hover {
   background-color: #fcfcfc;
 }
 
-.footerText {
-  font-size: 1.2em;
-  padding: 0 5vw 2vw 5vw;
-}
-
-.footerHeading {
-  font-size: 1.5em;
-  font-weight: 600;
-  padding: 0 2vw 1vw 2vw;
-}
-
 .footerContact {
   padding: 2vw;
 }
+
+/* PAGE LOGO STYLING */
 
 .logo {
   padding-top: 2vw;
