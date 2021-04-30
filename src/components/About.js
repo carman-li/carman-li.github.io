@@ -1,14 +1,14 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import profile from "../assets/profile1.jpg"
 
 function About() {
     return (
         <Container className="about">
             <Row>
-                <Col md={4}>
-                    <img className="profilepic" src={profile} alt="Profile" /></Col>
-                <Col> <div className="text">
+                <Col auto>
+                    <Image src={profile} fluid roundedCircle className="profilePic" /></Col>
+                <Col md={7}> <div className="text">
                     I'm currently in my third year of Systems Design at UWaterloo. This winter, I had the opportunity to intern as an Innovation Lab Developer at <a href="https://www.interac.ca/en/" target="_blank" >Interac</a>.
                         <br></br>
                     <br></br>
