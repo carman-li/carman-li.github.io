@@ -7,6 +7,23 @@ function Experience() {
             <Row>
                 <Col lg={2}>
                     <div className="text highlight">
+                        Winter 2021
+                                    </div>
+                </Col>
+                <Col lg={4}>
+                    <div className="text">
+                        <span className="bold">Interac</span> // Innovation Lab Developer
+                                     </div>
+                </Col>
+                <Col lg={6}>
+                    <div className="text">
+                        Developed an eComm payment system (Dart) to facilitate QR transactions and built a web platform to support local businesses (Ionic)
+                                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col lg={2}>
+                    <div className="text highlight">
                         Summer 2020
                                     </div>
                 </Col>

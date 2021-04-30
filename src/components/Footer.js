@@ -5,6 +5,13 @@ import { Container, Row, Col } from 'react-bootstrap';
 import logo from "./logo.png"
 
 function Footer() {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    };
+
     return (
         <Container className="footer">
             <Row>
@@ -29,7 +36,7 @@ function Footer() {
                 </Col>
             </Row>
             <Row>
-                <a href="https://carman-li.github.io/"><img className="logo" src={logo}></img></a>
+                <a onClick={() => scrollToTop()}><img className="logo" src={logo}></img></a>
             </Row>
         </Container>
     )

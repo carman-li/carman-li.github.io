@@ -1,16 +1,20 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import profile from "../assets/profile1.jpg"
 
 function About() {
     return (
         <Container className="about">
             <Row>
-                <div className="text">
-                    Currently, I'm in my third year of Systems Design at UWaterloo. This summer, I had the opportunity to intern as a full stack developer at <a href="https://www.gomarketbox.com/" target="_blank" >MarketBox</a>.
+                <Col md={4}>
+                    <img className="profilepic" src={profile} alt="Profile" /></Col>
+                <Col> <div className="text">
+                    I'm currently in my third year of Systems Design at UWaterloo. This winter, I had the opportunity to intern as an Innovation Lab Developer at <a href="https://www.interac.ca/en/" target="_blank" >Interac</a>.
                         <br></br>
                     <br></br>
-                        Outside of the (virtual) classroom, I like playing with my friends' dogs, building side projects, and eating goooooood food. Scroll down for some more about my projects & internships!
-                    </div>
+                        Outside of the (virtual) classroom, I like playing with my friends' dogs, gaming, and eating goooooood food. Scroll down for some more about my internships & projects!
+                    </div></Col>
+
             </Row>
         </Container >
     )

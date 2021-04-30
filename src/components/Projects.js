@@ -9,7 +9,7 @@ import sliceImage from './slice.png'
 function Projects() {
     return (
         <Container className="projects">
-            <Row className="projectCard">
+            {/* <Row className="projectCard">
                 <Col>
                     <ProjectCard
                         title="Slice"
@@ -19,7 +19,7 @@ function Projects() {
                         imageLayout="left"
                     />
                 </Col>
-            </Row>
+            </Row> */}
             <Row className="projectCard">
                 <Col>
                     <ProjectCard

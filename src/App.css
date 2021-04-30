@@ -85,8 +85,20 @@ a:hover {
 
 /* COMPONENT STYLES */
 
-.projects, .experience, .about {
+.profilepic {
+  width: 20vw;
+  border-radius: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.experience {
   margin: 3vw 2vw 2vw 2vw;
+}
+
+.about {
+  margin-top: 3vw;
+  flex: 1;
 }
 
 .projectCard {

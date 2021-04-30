@@ -33,18 +33,13 @@ function App() {
                 <AnimatedSubtitle />
               </Col>
             </Row>
-            <Row md={1}>
-              <Col lg={2}>
+            <Row>
+              {/* <Col lg={2}>
                 <SectionHeading content="What I'm up to:" />
-              </Col>
+              </Col> */}
+
               <Col>
                 <About />
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <SectionHeading content="Projects" />
-                <Projects />
               </Col>
             </Row>
             <Row md={1}>
@@ -55,6 +50,13 @@ function App() {
                 <Experience />
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <SectionHeading content="Projects" />
+                <Projects />
+              </Col>
+            </Row>
+
           </Container>
         </Col>
       </Row>
