@@ -17,7 +17,7 @@ function Experience() {
                 </Col>
                 <Col lg={6}>
                     <ul className="text">
-                        <li>Integrated dynamic QR transactions with eCommerce sites</li>
+                        <li>Integrated dynamic QR transactions with e-commerce sites</li>
                         <li>Developed Interac QR payment app (Flutter, Firebase)</li>
                         <li>Built a web platform to support local businesses (Ionic)</li>
                     </ul>
