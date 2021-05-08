@@ -36,9 +36,9 @@ function Experience() {
                 </Col>
                 <Col lg={6}>
                     <ul className="text">
-                        <li>Built a data migration tool</li>
+                        <li>Built a tool allowing clients to migrate their existing data to MarketBox</li>
                         <li>Redesigned mobile app features (React Native)</li>
-                        <li>Developed REST APIs (Node)</li>
+                        <li>Developed REST APIs (Node) so companies can query MarketBox data</li>
                     </ul>
                 </Col>
             </Row>
