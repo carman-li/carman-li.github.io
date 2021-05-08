@@ -17,7 +17,7 @@ function Experience() {
                 </Col>
                 <Col lg={6}>
                     <div className="text">
-                        Developed an eComm payment system (Dart, Firebase) to facilitate QR transactions and built a web platform to support local businesses (Ionic)
+                        Integrated dynamic QR transactions with eCommerce sites, developed Interac QR payment app (Flutter, Firebase), and built a web platform to support local businesses (Ionic)
                                     </div>
                 </Col>
             </Row>

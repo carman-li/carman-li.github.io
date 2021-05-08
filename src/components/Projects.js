@@ -3,23 +3,24 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import ProjectCard from './ProjectCard'
 
-import yelpImage from './yelpRoulette.jpg'
-import sliceImage from './slice.png'
+import yelpImage from '../assets/yelpRoulette.jpg'
+import colourBucketImage from '../assets/colourBucket.png'
 
 function Projects() {
     return (
         <Container className="projects">
-            {/* <Row className="projectCard">
+            <Row className="projectCard">
                 <Col>
                     <ProjectCard
-                        title="Slice"
-                        tagline="// Built with React Native & MongoDB Stitch endl// Current work in progress!"
-                        content="Mobile application that makes it easier for users to split bills with others."
-                        image={sliceImage}
+                        title="Colour Bucket"
+                        link="https://github.com/carman-li/colour-bucket"
+                        tagline="// Built with Ionic & Firebase"
+                        content="Application where users can upload an image and generate a colour palette from it. Users can also search through uploads by hexcode."
+                        image={colourBucketImage}
                         imageLayout="left"
                     />
                 </Col>
-            </Row> */}
+            </Row>
             <Row className="projectCard">
                 <Col>
                     <ProjectCard
@@ -28,7 +29,7 @@ function Projects() {
                         tagline="// Built with React"
                         content="Web app that randomly selects a restaurant for you based on location and business category."
                         image={yelpImage}
-                        imageLayout="left"
+                        imageLayout="right"
                     />
                 </Col>
             </Row>
