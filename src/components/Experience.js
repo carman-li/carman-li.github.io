@@ -16,9 +16,11 @@ function Experience() {
                                      </div>
                 </Col>
                 <Col lg={6}>
-                    <div className="text">
-                        Integrated dynamic QR transactions with eCommerce sites, developed Interac QR payment app (Flutter, Firebase), and built a web platform to support local businesses (Ionic)
-                                    </div>
+                    <ul className="text">
+                        <li>Integrated dynamic QR transactions with eCommerce sites</li>
+                        <li>Developed Interac QR payment app (Flutter, Firebase)</li>
+                        <li>Built a web platform to support local businesses (Ionic)</li>
+                    </ul>
                 </Col>
             </Row>
             <Row>
@@ -33,9 +35,11 @@ function Experience() {
                                      </div>
                 </Col>
                 <Col lg={6}>
-                    <div className="text">
-                        Built a data migration tool, redesigned mobile app features (React Native), and developed REST APIs (Node)
-                                    </div>
+                    <ul className="text">
+                        <li>Built a data migration tool</li>
+                        <li>Redesigned mobile app features (React Native)</li>
+                        <li>Developed REST APIs (Node)</li>
+                    </ul>
                 </Col>
             </Row>
             <Row>
@@ -50,9 +54,9 @@ function Experience() {
                                     </div>
                 </Col>
                 <Col lg={6}>
-                    <div className="text">
-                        Automated data extraction for client forms (C#) to optimize bank document processing
-                                    </div>
+                    <ul className="text">
+                        <li>Automated data extraction for client forms (C#) to optimize bank document processing</li>
+                    </ul>
                 </Col>
             </Row>
             <Row >
@@ -67,9 +71,9 @@ function Experience() {
                                     </div>
                 </Col>
                 <Col lg={6}>
-                    <div className="text">
-                        Addressed problem areas on web and mobile applications through build acceptance & regression testing
-                                    </div>
+                    <ul className="text">
+                        <li>Addressed problem areas on web and mobile applications through build acceptance & regression testing</li>
+                    </ul>
                 </Col>
             </Row>
         </Container>

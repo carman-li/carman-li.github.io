@@ -4,11 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 function ProjectCard(props) {
     //imageLayout prop - image goes to left of text on default
     const layout = props.imageLayout === "right" ? true : false;
-
-    //split tagline into new lines if applicable
     const tagline = props.tagline;
-    const taglineSplit = tagline.split("endl");
-    console.log(taglineSplit);
 
     return (
         <Container>
@@ -26,7 +22,7 @@ function ProjectCard(props) {
                     <div className="heading highlight">{props.title}</div>
                     <div className="text">{props.content}</div>
                     <br></br>
-                    {taglineSplit.map((line) => {
+                    {tagline.map((line) => {
                         return <div className="tagline">{line}</div>
                     })}
                     <br></br>
