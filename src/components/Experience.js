@@ -7,13 +7,30 @@ function Experience() {
             <Row>
                 <Col lg={2}>
                     <div className="text highlight">
+                        Fall 2021
+                    </div>
+                </Col>
+                <Col lg={4}>
+                    <div className="text">
+                        <span className="bold">Pixlee</span> // Full-Stack Developer
+                    </div>
+                </Col>
+                <Col lg={6}>
+                    <ul className="text">
+                        <li>TBD...</li>
+                    </ul>
+                </Col>
+            </Row>
+            <Row>
+                <Col lg={2}>
+                    <div className="text highlight">
                         Winter 2021
-                                    </div>
+                    </div>
                 </Col>
                 <Col lg={4}>
                     <div className="text">
                         <span className="bold">Interac</span> // Innovation Lab Developer
-                                     </div>
+                    </div>
                 </Col>
                 <Col lg={6}>
                     <ul className="text">
@@ -27,12 +44,12 @@ function Experience() {
                 <Col lg={2}>
                     <div className="text highlight">
                         Summer 2020
-                                    </div>
+                    </div>
                 </Col>
                 <Col lg={4}>
                     <div className="text">
                         <span className="bold">Marketbox</span> // Full Stack Developer
-                                     </div>
+                    </div>
                 </Col>
                 <Col lg={6}>
                     <ul className="text">
@@ -46,12 +63,12 @@ function Experience() {
                 <Col lg={2}>
                     <div className="text highlight">
                         Fall 2019
-                                    </div>
+                    </div>
                 </Col>
                 <Col lg={4}>
                     <div className="text">
                         <span className="bold">Scotiabank</span> // Software Developer
-                                    </div>
+                    </div>
                 </Col>
                 <Col lg={6}>
                     <ul className="text">
@@ -63,12 +80,12 @@ function Experience() {
                 <Col lg={2}>
                     <div className="text highlight">
                         Winter 2019
-                                    </div>
+                    </div>
                 </Col>
                 <Col lg={4}>
                     <div className="text">
                         <span className="bold">Equitable Bank</span> // QA Analyst
-                                    </div>
+                    </div>
                 </Col>
                 <Col lg={6}>
                     <ul className="text">

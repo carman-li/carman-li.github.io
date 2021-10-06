@@ -26,7 +26,7 @@ function Projects() {
                 <Col>
                     <ProjectCard
                         title="Soup Thoughts"
-                        tagline={["// Built with Flutter and Firebase", "// Current work-in-progress!"]}
+                        tagline={["// Built with Flutter and Firebase", "// Currently on the to-do list!"]}
                         content="Application where I can create and display my personal soup reviews"
                         image={soupThoughtsImage}
                         imageLayout="right"

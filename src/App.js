@@ -34,19 +34,13 @@ function App() {
               </Col>
             </Row>
             <Row>
-              {/* <Col lg={2}>
-                <SectionHeading content="What I'm up to:" />
-              </Col> */}
-
               <Col>
                 <About />
               </Col>
             </Row>
             <Row md={1}>
-              <Col lg={2}>
-                <SectionHeading content="My past internships:" />
-              </Col>
               <Col>
+                <SectionHeading content="Internships:" />
                 <Experience />
               </Col>
             </Row>
