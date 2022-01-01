@@ -15,6 +15,7 @@
   0% {
     opacity: 0
   }
+
   100% {
     opacity: 1
   }
@@ -31,7 +32,7 @@
 /* TEXT STYLES */
 
 .title {
-  font-size: 3em;
+  font-size: 6vh;
   font-weight: 600;
   text-align: center;
 }
@@ -42,7 +43,6 @@
   font-size: 2em;
   font-weight: 600;
   color: #C2C2C2;
-  text-align: center;
 }
 
 .heading {
@@ -51,13 +51,19 @@
   padding-bottom: 1vw;
 }
 
+.subtitle {
+  color: #C2C2C2;
+  font-style: italic;
+}
+
 .text {
   font-size: 1.2em;
-  padding-bottom: 1vw;
+  padding: 1vw 0 1vw 0;
 }
 
 ul {
-  padding: 0
+  padding: 0;
+  margin: 0
 }
 
 .tagline {
@@ -90,25 +96,25 @@ a:hover {
 
 /* COMPONENT STYLES */
 
-.experience {
-  margin: 3vw 2vw 2vw 2vw;
+.experience, .projects, .about {
+  padding: 3vw 2vw 2vw 2vw;
 }
 
 .about {
-  margin: 3vw 0 3vw 0;
   flex: 1;
 }
 
-.profilePic {
-  padding: 3vw;
-}
-
 .projectCard {
-  padding: 2vw;
+  padding: 2vw 0 2vw 0;
 }
 
 .landing {
   padding: 3vw 2vw 3vw 2vw;
+}
+
+.imageContainer {
+  text-align: center;
+  padding: 2vh;
 }
 
 /* ROW STYLING */
@@ -152,6 +158,7 @@ a:hover {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -163,6 +170,7 @@ a:hover {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
@@ -174,6 +182,7 @@ a:hover {
   from, to {
     border-color: transparent
   }
+
   50% {
     border-color: #6FA2AD;
   }
@@ -181,10 +190,10 @@ a:hover {
 
 /* PROJECT STYLING */
 
-.projectImage, .projectImageLink {
+.projectImage, .projectImageLink, .images {
   max-width: 100%;
   margin-bottom: 2vw;
-  border-radius: 0.5em;
+  border-radius: 1em;
   transition: opacity 1s ease;
 }
 

@@ -14,10 +14,15 @@ function Experience() {
                     <div className="text">
                         <span className="bold">Pixlee</span> // Full-Stack Developer
                     </div>
+                    <div className="text subtitle">
+                        Backbone, Marionette, JavaScript, Rails
+                    </div>
                 </Col>
                 <Col lg={6}>
                     <ul className="text">
-                        <li>TBD...</li>
+                        <li>Developed influencer link tracking feature, used by thousands of brands to drive influencer analytics</li>
+                        <li>Built and pitched an award-winning, company-specific linter tool</li>
+                        <li>Safely tested and deployed database migrations to production</li>
                     </ul>
                 </Col>
             </Row>
@@ -31,12 +36,15 @@ function Experience() {
                     <div className="text">
                         <span className="bold">Interac</span> // Innovation Lab Developer
                     </div>
+                    <div className="text subtitle">
+                        Flutter, Firebase, Ionic
+                    </div>
                 </Col>
                 <Col lg={6}>
                     <ul className="text">
                         <li>Integrated dynamic QR transactions with e-commerce sites</li>
-                        <li>Developed Interac QR payment app (Flutter, Firebase)</li>
-                        <li>Built a web platform to support local businesses (Ionic)</li>
+                        <li>Developed Interac QR payment app for merchants and customers</li>
+                        <li>Built a web platform to support over 100 local businesses</li>
                     </ul>
                 </Col>
             </Row>
@@ -50,12 +58,15 @@ function Experience() {
                     <div className="text">
                         <span className="bold">Marketbox</span> // Full Stack Developer
                     </div>
+                    <div className="text subtitle">
+                        React, React Native, Node
+                    </div>
                 </Col>
                 <Col lg={6}>
                     <ul className="text">
                         <li>Built a tool allowing clients to migrate their existing data to MarketBox</li>
-                        <li>Redesigned mobile app features (React Native)</li>
-                        <li>Developed REST APIs (Node) so companies can query MarketBox data</li>
+                        <li>Redesigned mobile app features</li>
+                        <li>Developed REST APIs to allow companies to query MarketBox data</li>
                     </ul>
                 </Col>
             </Row>
@@ -72,7 +83,7 @@ function Experience() {
                 </Col>
                 <Col lg={6}>
                     <ul className="text">
-                        <li>Automated data extraction for client forms (C#) to optimize bank document processing</li>
+                        <li>Automated data extraction for client forms to optimize bank document processing using C#</li>
                     </ul>
                 </Col>
             </Row>

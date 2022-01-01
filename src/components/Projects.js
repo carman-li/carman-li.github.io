@@ -29,7 +29,7 @@ function Projects() {
                         tagline={["// Built with Flutter and Firebase", "// Currently on the to-do list!"]}
                         content="Application where I can create and display my personal soup reviews"
                         image={soupThoughtsImage}
-                        imageLayout="right"
+                        imageLayout="left"
                     />
                 </Col>
             </Row>

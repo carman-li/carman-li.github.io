@@ -11,6 +11,7 @@ import About from './components/About'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Skills from './components/Skills'
 
 function App() {
   return (
@@ -38,9 +39,15 @@ function App() {
                 <About />
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <SectionHeading content="Technical Skills" />
+                <Skills />
+              </Col>
+            </Row>
             <Row md={1}>
               <Col>
-                <SectionHeading content="Internships:" />
+                <SectionHeading content="Internships" />
                 <Experience />
               </Col>
             </Row>

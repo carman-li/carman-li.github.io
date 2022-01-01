@@ -7,12 +7,15 @@ function About() {
         <Container className="about">
             <Row>
                 <Col auto>
-                    <Image src={profile} fluid roundedCircle className="profilePic" /></Col>
+                    <div className="imageContainer">
+                        <img src={profile} className="images" />
+                    </div>
+                </Col>
                 <Col md={7}> <div className="text">
-                    I'm currently in my third year of Systems Design at UWaterloo. This fall, I'm a full-stack developer intern at <a href="https://www.pixlee.com/" target="_blank" >Pixlee</a>.
+                    I'm currently in my third year of Systems Design at UWaterloo. This fall, I had the fun opportunity to intern as a full-stack developer at <a href="https://www.pixlee.com/" target="_blank" >Pixlee TurnTo</a>.
                     <br></br>
                     <br></br>
-                    Outside of the classroom, I like playing with my friends' dogs, gaming, and eating goooooood food. Scroll down for some more about my internships & projects!
+                    Outside of the classroom/office, I enjoy gaming with my friends, reading, making playlists, and cooking (and of course eating) goooooood food. Scroll down for some more about my internships & projects!
                 </div></Col>
 
             </Row>

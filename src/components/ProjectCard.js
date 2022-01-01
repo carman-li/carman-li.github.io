@@ -3,22 +3,21 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function ProjectCard(props) {
     //imageLayout prop - image goes to left of text on default
-    const layout = props.imageLayout === "right" ? true : false;
+    const layout = props.imageLayout === "right";
     const tagline = props.tagline;
 
     return (
         <Container>
             <Row md={1}>
-
                 {!layout &&
-                    <Col lg={7}>
+                    <Col lg={6}>
                         <div>
                             <a href={props.link} target="_blank"><img className={props.link ? "projectImageLink" : "projectImage"} src={props.image}></img></a>
                         </div>
                     </Col>
                 }
 
-                <Col lg={5}>
+                <Col lg={6}>
                     <div className="heading highlight">{props.title}</div>
                     <div className="text">{props.content}</div>
                     <br></br>
@@ -30,7 +29,7 @@ function ProjectCard(props) {
                 </Col>
 
                 {!!layout &&
-                    <Col lg={7}>
+                    <Col lg={6}>
                         <a href={props.link} target="_blank"><img className={props.link ? "projectImageLink" : "projectImage"} src={props.image}></img></a>
                     </Col>
                 }
