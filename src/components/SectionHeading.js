@@ -1,12 +1,17 @@
-import React from 'react';
-
-import { Row } from 'react-bootstrap';
+import React from "react";
 
 function SectionHeading(props) {
-    return (
-        <Row>
-            <div className="sectionHeading">{props.content}</div>
-        </Row>
-    )
+  return (
+    <div class="sectionHeading bold">
+      {props.content}
+      {props.image ? (
+        <div class="inline-image">
+          <img src={props.image} class="images" />
+        </div>
+      ) : (
+        <></>
+      )}
+    </div>
+  );
 }
 export default SectionHeading;

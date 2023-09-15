@@ -1,25 +1,23 @@
-import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import profile from "../assets/profile1.jpg"
+import React from "react";
+import profile from "../assets/profile1.jpg";
 
 function About() {
-    return (
-        <Container className="about">
-            <Row>
-                <Col auto>
-                    <div className="imageContainer">
-                        <img src={profile} className="images" />
-                    </div>
-                </Col>
-                <Col md={7}> <div className="text">
-                    I'm currently in my third year of Systems Design at UWaterloo. This fall, I had the fun opportunity to intern as a full-stack developer at <a href="https://www.pixlee.com/" target="_blank" >Pixlee TurnTo</a>.
-                    <br></br>
-                    <br></br>
-                    Outside of the classroom/office, I enjoy gaming with my friends, reading, making playlists, and cooking (and of course eating) goooooood food. Scroll down for some more about my internships & projects!
-                </div></Col>
-
-            </Row>
-        </Container >
-    )
+  return (
+    <div id="about">
+      <div id="headshot">
+        <img src={profile} className="images" />
+      </div>
+      <div class="text">
+        I just graduated from the{" "}
+        <span className="highlight"> University of Waterloo</span>, where I
+        studied <span className="highlight">Systems Design Engineering</span>.
+        <br></br>
+        <br></br>
+        In my free time, I like to game with my friends, read, make playlists,
+        and try out new food recipes. Scroll down to learn more about my past
+        internships & projects!
+      </div>
+    </div>
+  );
 }
 export default About;

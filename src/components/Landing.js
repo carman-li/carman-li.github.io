@@ -1,21 +1,20 @@
-import React from 'react';
-import Contact from './Contact'
-import { Container, Row, Col } from 'react-bootstrap';
+import React from "react";
+import Contact from "./Contact";
 
 function Landing() {
-    return (
-        <Container className="landing">
-            <Row>
-                <Col>
-                    <Contact />
-                </Col>
-            </Row>
-            <Row>
-                <div>
-                    <div className="title">Hi! I'm <span className="highlight">Carman</span>, an aspiring developer and engineering student. 👩‍💻</div>
-                </div>
-            </Row>
-        </Container>
-    )
+  return (
+    <div id="landing">
+      <Contact />
+      <div>
+        <div className="title">
+          Hi! I'm <span className="highlight">Carman</span>, a recently
+          graduated software developer. 👩‍💻
+        </div>
+      </div>
+      <div class="animatedSubtitle heading">
+        // btw, I'm currently looking for a full-time position!{" "}
+      </div>
+    </div>
+  );
 }
 export default Landing;
