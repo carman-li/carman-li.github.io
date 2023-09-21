@@ -15,13 +15,13 @@ function Projects() {
         content="Application where users can generate color palettes from uploaded images. Users can also search through uploads by hexcode."
         image={colourBucketImage}
       />
-      <ProjectCard
+      {/* <ProjectCard
         title="Yelp Roulette"
         link="https://github.com/carman-li/yelp-roulette"
         tagline={["// Built with React"]}
         content="Web app that randomly selects a restaurant for you based on location and business category."
         image={yelpImage}
-      />
+      /> */}
     </div>
   );
 }
