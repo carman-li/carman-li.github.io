@@ -8,7 +8,7 @@ function Experience() {
           <div>
             <div className="text">
               <span className="highlight bold">Drop</span> // Software Engineer
-              Intern
+              Intern (Frontend)
             </div>
             <div className="text subtitle">React Native, Redux</div>
           </div>
@@ -33,7 +33,7 @@ function Experience() {
               <span className="highlight bold">
                 Pixlee TurnTo (Now Emplifi)
               </span>{" "}
-              // Software Engineer Intern
+              // Full-Stack Developer Intern
             </div>
             <div className="text subtitle">
               Backbone, Marionette, JavaScript, Rails
@@ -64,7 +64,7 @@ function Experience() {
           <div>
             <div className="text">
               <span className="highlight bold">Interac Innovation Lab</span> //
-              Software Engineer Intern
+              Software Engineering Intern (Frontend)
             </div>
             <div className="text subtitle">Flutter, Firebase, Ionic </div>
           </div>
@@ -93,8 +93,8 @@ function Experience() {
         <div class="experience-heading">
           <div>
             <div className="text">
-              <span className="highlight bold">MarketBox</span> // Software
-              Engineer Intern
+              <span className="highlight bold">MarketBox</span> // Full-Stack
+              Developer Intern
             </div>
             <div className="text subtitle">React Native, Node</div>
           </div>

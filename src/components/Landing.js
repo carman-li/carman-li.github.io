@@ -8,7 +8,7 @@ function Landing() {
       <div>
         <div className="title">
           Hi! I'm <span className="highlight">Carman</span>, a recently
-          graduated software developer. 👩‍💻
+          graduated engineer with an interest in frontend development. 👩‍💻
         </div>
       </div>
       <div class="animatedSubtitle heading">

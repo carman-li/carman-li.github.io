@@ -4,18 +4,17 @@ function Skills() {
   return (
     <div id="skills">
       <div className="text">
-        <span className="highlight">Languages:</span> JavaScript/Typescript,
-        Python, Dart, SQL
+        <span className="highlight">Languages:</span> JavaScript, Typescript,
+        HTML, CSS, Python, Dart, SQL
       </div>
       <br></br>
       <div className="text">
-        <span className="highlight">Frameworks:</span> React, React Native,
-        Redux, Ionic, Flutter, Node, Marionette, Backbone
+        <span className="highlight">Technologies:</span> React, React Native,
+        Redux, Ionic, Flutter, Bootstrap, Jest, Typescript, ESLint
       </div>
       <br></br>
       <div className="text">
-        <span className="highlight">Tools:</span> Rails, Firebase, Jest, Git,
-        Figma
+        <span className="highlight">Tools:</span> Rails, Firebase, Figma
       </div>
     </div>
   );

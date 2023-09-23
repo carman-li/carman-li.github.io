@@ -14,8 +14,8 @@ function About() {
         <br></br>
         <br></br>
         In my free time, I like to game with my friends, read, make playlists,
-        and try out new food recipes. Scroll down to learn more about my past
-        internships & projects!
+        draw, and try out new food recipes. Scroll down to learn more about my
+        past internships & projects!
       </div>
     </div>
   );
